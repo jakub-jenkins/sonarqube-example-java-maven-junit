@@ -7,7 +7,7 @@ pipeline {
         echo 'jhgfd'
       }
     }
-    stage('tezt') {
+    stage('teztgitweb') {
       steps {
         sh 'mvn test'
       }
